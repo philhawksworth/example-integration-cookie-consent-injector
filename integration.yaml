@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://sdk.netlify.com/sdk/config-schema.json
 config:
-  slug: cookie-consent-injector-example
+  slug: g98ov0co-cookie-consent-injector
   name: cookie-consent-injector-example
   description: Intelligently inject cookie banner HTML when required
   integrationLevel: site
