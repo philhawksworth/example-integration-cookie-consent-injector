@@ -2,8 +2,10 @@ import banner from '../utils/banner.js';
 import bannerConfirmed from '../utils/banner-acknowledged.js';
 import cookiePolicyCountries from '../utils/territories.js';
 
+
+
 // Inject the appropriate UI
-const updateBannerDisplay = async function(context, ui) {
+const updateBannerDisplay = async function(context: {next: Function}, ui: Function) {
     // Get the page content
     const response = await context.next();
     const page = await response.text();
