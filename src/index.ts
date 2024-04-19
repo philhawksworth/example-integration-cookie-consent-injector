@@ -1,11 +1,9 @@
-// Documentation: https://sdk.netlify.com
 import { NetlifyIntegration } from "@netlify/sdk";
-
+ 
 const integration = new NetlifyIntegration();
-
-integration.addFunctions("./src/functions", {
-  prefix: "my_unique_prefix",
+ 
+integration.addEdgeFunctions("./src/edge-functions", {
+  prefix: "ph_int_cookie_consent",
 });
-
+ 
 export { integration };
-
